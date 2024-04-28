@@ -35,7 +35,7 @@ console.log(solution("abba"));  // Expected output: 0
 
 //Solution #2
 //in this solution we make use of the lastIndexOf() method on the string itself aka index-based access since our objective is just to compare the positions of the letter a against the letter b
-//the big O notation for this solution is O(n), indicating that the time taken by the algorithm grows linearly with the size of the input string.
+//the big O notation for this solution is still O(n), indicating that the time taken by the algorithm grows linearly with the size of the input string.
 //this operation is less expensive because it doesn't have an extra step for converting the string to an array which could cause issues when handling larger sets of data
 function solution(S) {
     const lastIndexOfA = S.lastIndexOf('a');

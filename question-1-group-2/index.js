@@ -1,7 +1,7 @@
 //algorithm
 /*
 
-1. Initialize an empty object positions.
+1. Initialize an empty object called positions.
 2. Iterate over each string in array S.
     // For each string, iterate over each character and store its position in positions.
 3. Iterate over each string in array S.
@@ -25,7 +25,7 @@ function solution(S):
         // Iterating over each character in the string
         for j from 0 to string.length - 1:
             character = string[j]
-            // Store the position of the character in the positions object
+            // Now we store the position of the character in the positions object
             if character not in positions:
                 positions[character] = [i, j]
     
