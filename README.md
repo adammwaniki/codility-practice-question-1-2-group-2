@@ -1,0 +1,1 @@
+# codility-practice-question-1-group-2
